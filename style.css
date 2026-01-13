@@ -5,12 +5,33 @@
 }
 
 body{
-    max-width: 512px;
-    border-style: dashed;
+    width: 512px;
+    border-style:ridge;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
 }
 
 header{
+    padding: 8rem;
+    margin: 0;
+    background-image: url(img/banner.png);
+    background-size: cover;
+}
+
+main{
+    padding: 1rem;
+
 
 
 
 }
+
+
+#id_download{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
