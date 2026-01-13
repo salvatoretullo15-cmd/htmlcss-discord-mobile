@@ -59,9 +59,10 @@ main{
     border-color: #5865F2;
     border-radius: 25px;
     background-color: #5865F2;
-    box-shadow: ;
+}
+
+.img{
     
-   
 }
 
 .fun{
@@ -72,26 +73,10 @@ main{
 
 p{
     font-size: small;
-    
-
-
+    margin-top: 0.5rem;
 }
 
-.beta{ 
-    margin: 0.5rem;
-    padding: 3rem;
-    text-align: left;
-    color: white;
-    border-color: #5865F2;
-    border-radius: 25px;
-    background-color: #5865F2;
-    box-shadow: ;
 
-}
-
-.sad{
-
-}
 
 
 
