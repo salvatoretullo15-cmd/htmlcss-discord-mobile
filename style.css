@@ -21,17 +21,35 @@ header{
 }
 
 main{
+    padding: 5rem;
+    text-align: center;
+    font-size:large;
+}
+
+.title{
+    color: white;
+}
+
+.group{
+    margin: 0.5rem;
+    color: white;
+}
+
+.download{
+    margin: 1rem;
     padding: 1rem;
+    border-radius: 15px;
+    background-color: white;
+}
 
-
-
-
+.discord{
+    margin: 1rem;
+    padding: 1rem;
+    color: whitesmoke;
+    border-radius: 15px;
+    background-color: #5865F2;
 }
 
 
-#id_download{
-    margin: 20px;
-    padding: 20px;
-    box-sizing: content-box;
-}
+
 
