@@ -1,3 +1,6 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +12,10 @@ body{
     width:512px;
     border-style:ridge;
     background-image: url(img/background.png);
-    background-size: cover;
-    background-attachment:scroll;
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-repeat: repeat;
+    font-family: "DM Sans", sans-serif;
 }
 
 header{
@@ -29,6 +33,7 @@ main{
 
 .title{
     color: white;
+    font-family: "Sigmar", sans-serif;
 }
 
 .group{
@@ -52,13 +57,23 @@ main{
 }
 
 .demo{
-    margin: 0.5rem;
-    padding: 3rem;
+    margin:1rem;
+    margin-top: 3rem;
+    padding: 2.5rem;
     text-align: left;
     color: white;
     border-color: #5865F2;
     border-radius: 25px;
     background-color: #5865F2;
+    position: relative;
+}
+
+.logo{
+    height: px;
+    width: px;
+    bottom: 90%;
+    left: 50px;
+    position: absolute;
 }
 
 img{
@@ -70,11 +85,13 @@ img{
     margin-top: 1rem;
     text-align: left;
     color: white;
+    font-family: "Sigmar", sans-serif;
 }
 
 p{
     font-size: small;
     margin-top: 0.5rem;
+    
 }
 
 
