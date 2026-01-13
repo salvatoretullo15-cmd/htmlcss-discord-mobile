@@ -5,7 +5,8 @@
 }
 
 body{
-    width: 512px;
+    
+    width:512px;
     border-style:ridge;
     background-image: url(img/background.png);
     background-size: cover;
@@ -51,11 +52,46 @@ main{
 }
 
 .demo{
-    background-image: url(img/discord_demo.png);
+    margin: 0.5rem;
+    padding: 3rem;
+    text-align: left;
+    color: white;
+    border-color: #5865F2;
+    border-radius: 25px;
+    background-color: #5865F2;
+    box-shadow: ;
     
    
 }
 
+.fun{
+    margin-top: 1rem;
+    text-align: left;
+    color: white;
+}
+
+p{
+    font-size: small;
+    
+
+
+}
+
+.beta{ 
+    margin: 0.5rem;
+    padding: 3rem;
+    text-align: left;
+    color: white;
+    border-color: #5865F2;
+    border-radius: 25px;
+    background-color: #5865F2;
+    box-shadow: ;
+
+}
+
+.sad{
+
+}
 
 
 
